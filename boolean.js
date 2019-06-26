@@ -17,17 +17,17 @@ if (temp >= 110) {
 }
 
 // challenge area
-let age = 65
-// create age variable set to my age
-let isChild = age <= 7
-//calculate is child - if they are 7 or under
-let isSenior = age >= 65
-//calculate is senior - if 65 or older
-console.log(isChild)
-// print is child value
-console.log(isSenior)
-// print is senior value
+let age = 6
 
+
+if (age <= 7) {
+    console.log('$10.00 off price')
+}
+// if 7 or youner print message about child pricing
+if (age >= 65) {
+console.log('Senior discount')
+}
+// if 65 or older print message about senior discount
 
 
 
